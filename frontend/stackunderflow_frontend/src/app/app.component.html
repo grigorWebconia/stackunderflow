@@ -1,0 +1,7 @@
+<ng-template *ngIf="!auth; else home ">
+    <app-login></app-login>
+</ng-template>
+
+<ng-template #home>
+  <app-header></app-header>
+</ng-template>
